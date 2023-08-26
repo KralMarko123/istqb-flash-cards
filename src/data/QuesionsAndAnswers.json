@@ -1,0 +1,27 @@
+[
+	{
+		"Id": 1,
+		"Question": "What does software which does not work correctly lead to?",
+		"Answer": "It leads to loss money, business or time reputation, and in some extreme cases, injury or death.",
+		"ChapterKey": "FOT"
+	},
+
+	{
+		"Id": 2,
+		"Question": "What is software testing?",
+		"Answer": "Software testing is the process of assessing software quality in order to minimize risk of software failure during operation. It can be described as a set of activities to discover defects and evaluate the quality of software artifacts.",
+		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 3,
+		"Question": "What is the difference between dynamic and static testing?",
+		"Answer": "Dynamic testing involves the execution of software, while static testing does not.",
+		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 4,
+		"Question": "What kind of mindset do testers need to have?",
+		"Answer": "While testers use certain tools to aid them during testing, it is important to remember that testing is largely an intellectual activity, requiring the testers to have specialized knowledge, use analytical skills and apply critical thinking and systems thinking.",
+		"ChapterKey": "FOT"
+	}
+]

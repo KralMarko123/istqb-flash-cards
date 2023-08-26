@@ -1,0 +1,19 @@
+.page {
+	width: 100%;
+	min-height: 100vh;
+
+	padding: 1em;
+	text-align: center;
+}
+
+.page_title {
+	margin-bottom: 1em;
+}
+
+.card_container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	grid-gap: 1em;
+	align-items: stretch;
+}
