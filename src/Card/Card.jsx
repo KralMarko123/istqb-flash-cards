@@ -1,9 +1,11 @@
 import React from "react";
-import './Card.css'
+import "./Card.css";
 
-const Card = ({ id, question, answer }) => {
+const Card = ({ id, question, answer, multipleAnswers }) => {
+	const classNames = `card ${multipleAnswers ? "multiple" : ""}`;
+
 	return (
-		<div className="card">
+		<div className={classNames}>
 			<div className="card_content">
 				<div className="card_front">
 					<span className="card_id">{id}</span>
@@ -12,6 +14,12 @@ const Card = ({ id, question, answer }) => {
 
 				<div className="card_back">
 					<p className="card_answer">{answer}</p>
+
+					<ul className="multiple_container">
+						{multipleAnswers?.map((a) => (
+							<li className="mutliple_answer">{a}</li>
+						))}
+					</ul>
 				</div>
 			</div>
 		</div>

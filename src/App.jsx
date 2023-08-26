@@ -1,7 +1,7 @@
 import React from "react";
 import questionsAndAnswers from "./data/QuesionsAndAnswers.json";
-import "./styles.css";
 import Card from "./Card/Card";
+import "./styles.css";
 const App = () => {
 	return (
 		<div className="page">
@@ -9,7 +9,13 @@ const App = () => {
 
 			<div className="card_container">
 				{questionsAndAnswers.map((q) => (
-					<Card id={q.Id} question={q.Question} answer={q.Answer} />
+					<Card
+						key={q.Id}
+						id={q.Id}
+						question={q.Question}
+						answer={q.Answer}
+						multipleAnswers={q.Answers}
+					/>
 				))}
 			</div>
 		</div>

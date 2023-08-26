@@ -23,5 +23,56 @@
 		"Question": "What kind of mindset do testers need to have?",
 		"Answer": "While testers use certain tools to aid them during testing, it is important to remember that testing is largely an intellectual activity, requiring the testers to have specialized knowledge, use analytical skills and apply critical thinking and systems thinking.",
 		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 5,
+		"Question": "What are some typical test objectives?",
+		"Answers": [
+			"Evaluating work products such as requirements, user stories, designs, and code",
+			"Triggering failures and finding defects",
+			"Ensuring required coverage of a test object",
+			"Reducing the level of risk of inadequate software quality",
+			"Verifying whether specified requirements have been fulfilled",
+			"Verifying that a test object complies with contractual, legal, and regulatory requirements",
+			"Providing information to stakeholders to allow them to make informed decisions",
+			"Building confidence in the quality of the test object",
+			"Validating whether the test object is complete and works as expected by the stakeholders"
+		],
+		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 6,
+		"Question": "What is the debugging process and what steps does it typically involve?",
+		"Answer": "When dynamic testing triggers a failure, debugging is concerned with finding causes of this failure (defects), analyzing these causes, and eliminating them. The typical process involves:",
+		"Answers": [
+			"Reproduction of a failure",
+			"Diagnosis (finding the root cause)",
+			"Fixing the cause"
+		],
+		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 7,
+		"Question": "Why is Testing necessary?",
+		"Answer": "Testing, as a form of quality control, helps in achieving the agreed upon goals within the set scope, time, quality, and budget constraints.",
+		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 8,
+		"Question": "What is the difference between QC and QA?",
+		"Answer": "QC is a product-oriented, corrective approach that focuses on those activities supporting the achievement of appropriate levels of quality, whilst QA is a process-oriented, preventive approach that focuses on the implementation and improvement of processes. Testing is a major form of quality control and is not the same as quality assessment.",
+		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 9,
+		"Question": "What are some of the reasons for human error in software development?",
+		"Answer": "Humans make errors for various reasons, such as time pressure, complexity of work products, processes, infrastructure or interactions, or simply because they are tired or lack adequate training.",
+		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 10,
+		"Question": "What would be defined as a root cause?",
+		"Answer": "A root cause is a fundamental reason for the occurrence of a problem.  It is believed that further failures or defects can be prevented or their frequency reduced by addressing the root cause, such as by removing it.",
+		"ChapterKey": "FOT"
 	}
 ]
