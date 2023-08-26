@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/istqb-flash-cards/static/css/main.c1bc8f3b.css",
+    "main.js": "/istqb-flash-cards/static/js/main.8cd95a82.js",
+    "static/media/istqb.png": "/istqb-flash-cards/static/media/istqb.7ae72f1c32ea9177143e.png",
+    "index.html": "/istqb-flash-cards/index.html",
+    "main.c1bc8f3b.css.map": "/istqb-flash-cards/static/css/main.c1bc8f3b.css.map",
+    "main.8cd95a82.js.map": "/istqb-flash-cards/static/js/main.8cd95a82.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1bc8f3b.css",
+    "static/js/main.8cd95a82.js"
+  ]
+}
