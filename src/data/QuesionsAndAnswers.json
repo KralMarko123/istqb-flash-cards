@@ -72,7 +72,21 @@
 	{
 		"Id": 10,
 		"Question": "What would be defined as a root cause?",
-		"Answer": "A root cause is a fundamental reason for the occurrence of a problem.  It is believed that further failures or defects can be prevented or their frequency reduced by addressing the root cause, such as by removing it.",
+		"Answer": "A root cause is a fundamental reason for the occurrence of a problem.  \n It is believed that further failures or defects can be prevented or their frequency reduced by addressing the root cause, such as by removing it.",
+		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 11,
+		"Question": "What testing principles are there?",
+		"Answers": [
+			"Testing shows the presence, not the absence of defects",
+			"Exhaustive testing is impossible",
+			"Early testing saves time and money",
+			"Defects cluster together",
+			"Tests wear out",
+			"Testing is context dependent",
+			"Absence-of-defects fallacy"
+		],
 		"ChapterKey": "FOT"
 	}
 ]
