@@ -88,5 +88,34 @@
 			"Absence-of-defects fallacy"
 		],
 		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 12,
+		"Question": "Which testing activities mainly make up the testing process?",
+		"Answers": [
+			"Test Planning",
+			"Test monitoring and control",
+			"Test analysis",
+			"Test design",
+			"Test implementation",
+			"Test execution",
+			"Test completion"
+		],
+		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 13,
+		"Question": "What contextual factors exist which influence the overall testing process?",
+		"Answers": [
+			"Stakeholders (needs, expectations, requirements, willingness to cooperate, etc.)",
+			"Team members (skills, knowledge, level of experience, availability, training needs, etc.)",
+			"Business domain (criticality of the test object, identified risks, market needs, specific legal regulations, etc.)",
+			"Technical factors (type of software, product architecture, technology used, etc.)",
+			"Project constraints (scope, time, budget, resources, etc.)",
+			"Organizational factors (organizational structure, existing policies, practices used, etc.)",
+			"Software development lifecycle (engineering practices, development methods, etc.)",
+			"Tools (availability, usability, compliance, etc.)"
+		],
+		"ChapterKey": "FOT"
 	}
 ]
