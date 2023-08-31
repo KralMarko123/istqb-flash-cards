@@ -171,5 +171,11 @@
 			"By testers from outside the organization (very high independence)"
 		],
 		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 20,
+		"Question": "What is the Software Development Lifecycle?",
+		"Answer": "It is an abstract model, a high-level representation of the software development process. The model defines how different development phases and types of activities performed within the process relate to each other, both logically and chronologically.",
+		"ChapterKey": "TTSDLC"
 	}
 ]
