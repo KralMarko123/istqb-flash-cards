@@ -117,5 +117,59 @@
 			"Tools (availability, usability, compliance, etc.)"
 		],
 		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 14,
+		"Question": "What is testware and which items would be examples for the same?",
+		"Answer": "Testware are the work products created and delivered as output from testing activities. Each organization has different ways of producing, naming and maintaining such products. Some examples of testware would be:",
+		"Answers": [
+			"Test plans, Test schedules, Entry & Exit criteria",
+			"Progress reports, Acceptance criteria",
+			"Test cases, Test scripts, Test suites, Test logs, Defect Reports"
+		],
+		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 15,
+		"Question": "Why do we need traceability between the test basis and testware?",
+		"Answer": "Accurate traceability enables proper coverage evaluation and can also be used to identify any residual risks in a test object. Furthermore, good traceability makes it possible to determine the impact of changes, makes completion and test reports easier to understand and assists in communicating technical aspects of testing to stakeholders.",
+		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 16,
+		"Question": "Which two principal roles exist in testing and what are they mainly concerned with?",
+		"Answer": "There are two main roles in testing, a test management and a testing role. The first one is mainly focused on the testing process, testing team and the overall leadership of the testing activities. The latter takes responsibility for the engineering (technical) aspect of testing.",
+		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 17,
+		"Question": "What are some skills that are essential for testers?",
+		"Answers": [
+			"Testing Knowledge",
+			"Thoroughness, carefulness, curiosity, attention to details, being methodical",
+			"Good communication skills, active listening, being a team player",
+			"Analytical thinking, critical thinking, creativity",
+			"Technical knowledge",
+			"Domain knowledge"
+		],
+		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 18,
+		"Question": "What is the whole-team approach?",
+		"Answer": "In the whole-team approach any team member with the necessary knowledge and skills can perform any task, and everyone is responsible for quality. The team members share the same workspace, testers work closely with other team members to ensure that desired quality levels are achieved and various skill sets within the team are leveraged for the benefit of the project.",
+		"ChapterKey": "FOT"
+	},
+	{
+		"Id": 19,
+		"Question": "What levels are there when it comes to independence of testing?",
+		"Answer": "Work products can be tested by different members:",
+		"Answers": [
+			"By their author (no independence)",
+			"By the author's peers from the same team (some independence)",
+			"By testers from outside the author's team but within the organization (high independence)",
+			"By testers from outside the organization (very high independence)"
+		],
+		"ChapterKey": "FOT"
 	}
 ]
