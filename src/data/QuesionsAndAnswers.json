@@ -1,181 +1,181 @@
 [
-	{
-		"Id": 1,
-		"Question": "What does software which does not work correctly lead to?",
-		"Answer": "It leads to loss money, business or time reputation, and in some extreme cases, injury or death.",
-		"ChapterKey": "FOT"
-	},
+  {
+    "Id": 1,
+    "Question": "What does software which does not work correctly lead to?",
+    "Answer": "It leads to loss money, business or time reputation, and in some extreme cases, injury or death.",
+    "ChapterKey": "FOT"
+  },
 
-	{
-		"Id": 2,
-		"Question": "What is software testing?",
-		"Answer": "Software testing is the process of assessing software quality in order to minimize risk of software failure during operation. It can be described as a set of activities to discover defects and evaluate the quality of software artifacts.",
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 3,
-		"Question": "What is the difference between dynamic and static testing?",
-		"Answer": "Dynamic testing involves the execution of software, while static testing does not.",
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 4,
-		"Question": "What kind of mindset do testers need to have?",
-		"Answer": "While testers use certain tools to aid them during testing, it is important to remember that testing is largely an intellectual activity, requiring the testers to have specialized knowledge, use analytical skills and apply critical thinking and systems thinking.",
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 5,
-		"Question": "What are some typical test objectives?",
-		"Answers": [
-			"Evaluating work products such as requirements, user stories, designs, and code",
-			"Triggering failures and finding defects",
-			"Ensuring required coverage of a test object",
-			"Reducing the level of risk of inadequate software quality",
-			"Verifying whether specified requirements have been fulfilled",
-			"Verifying that a test object complies with contractual, legal, and regulatory requirements",
-			"Providing information to stakeholders to allow them to make informed decisions",
-			"Building confidence in the quality of the test object",
-			"Validating whether the test object is complete and works as expected by the stakeholders"
-		],
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 6,
-		"Question": "What is the debugging process and what steps does it typically involve?",
-		"Answer": "When dynamic testing triggers a failure, debugging is concerned with finding causes of this failure (defects), analyzing these causes, and eliminating them. The typical process involves:",
-		"Answers": [
-			"Reproduction of a failure",
-			"Diagnosis (finding the root cause)",
-			"Fixing the cause"
-		],
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 7,
-		"Question": "Why is Testing necessary?",
-		"Answer": "Testing, as a form of quality control, helps in achieving the agreed upon goals within the set scope, time, quality, and budget constraints.",
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 8,
-		"Question": "What is the difference between QC and QA?",
-		"Answer": "QC is a product-oriented, corrective approach that focuses on those activities supporting the achievement of appropriate levels of quality, whilst QA is a process-oriented, preventive approach that focuses on the implementation and improvement of processes. Testing is a major form of quality control and is not the same as quality assessment.",
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 9,
-		"Question": "What are some of the reasons for human error in software development?",
-		"Answer": "Humans make errors for various reasons, such as time pressure, complexity of work products, processes, infrastructure or interactions, or simply because they are tired or lack adequate training.",
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 10,
-		"Question": "What would be defined as a root cause?",
-		"Answer": "A root cause is a fundamental reason for the occurrence of a problem.  \n It is believed that further failures or defects can be prevented or their frequency reduced by addressing the root cause, such as by removing it.",
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 11,
-		"Question": "What testing principles are there?",
-		"Answers": [
-			"Testing shows the presence, not the absence of defects",
-			"Exhaustive testing is impossible",
-			"Early testing saves time and money",
-			"Defects cluster together",
-			"Tests wear out",
-			"Testing is context dependent",
-			"Absence-of-defects fallacy"
-		],
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 12,
-		"Question": "Which testing activities mainly make up the testing process?",
-		"Answers": [
-			"Test Planning",
-			"Test monitoring and control",
-			"Test analysis",
-			"Test design",
-			"Test implementation",
-			"Test execution",
-			"Test completion"
-		],
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 13,
-		"Question": "What contextual factors exist which influence the overall testing process?",
-		"Answers": [
-			"Stakeholders (needs, expectations, requirements, willingness to cooperate, etc.)",
-			"Team members (skills, knowledge, level of experience, availability, training needs, etc.)",
-			"Business domain (criticality of the test object, identified risks, market needs, specific legal regulations, etc.)",
-			"Technical factors (type of software, product architecture, technology used, etc.)",
-			"Project constraints (scope, time, budget, resources, etc.)",
-			"Organizational factors (organizational structure, existing policies, practices used, etc.)",
-			"Software development lifecycle (engineering practices, development methods, etc.)",
-			"Tools (availability, usability, compliance, etc.)"
-		],
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 14,
-		"Question": "What is testware and which items would be examples for the same?",
-		"Answer": "Testware are the work products created and delivered as output from testing activities. Each organization has different ways of producing, naming and maintaining such products. Some examples of testware would be:",
-		"Answers": [
-			"Test plans, Test schedules, Entry & Exit criteria",
-			"Progress reports, Acceptance criteria",
-			"Test cases, Test scripts, Test suites, Test logs, Defect Reports"
-		],
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 15,
-		"Question": "Why do we need traceability between the test basis and testware?",
-		"Answer": "Accurate traceability enables proper coverage evaluation and can also be used to identify any residual risks in a test object. Furthermore, good traceability makes it possible to determine the impact of changes, makes completion and test reports easier to understand and assists in communicating technical aspects of testing to stakeholders.",
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 16,
-		"Question": "Which two principal roles exist in testing and what are they mainly concerned with?",
-		"Answer": "There are two main roles in testing, a test management and a testing role. The first one is mainly focused on the testing process, testing team and the overall leadership of the testing activities. The latter takes responsibility for the engineering (technical) aspect of testing.",
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 17,
-		"Question": "What are some skills that are essential for testers?",
-		"Answers": [
-			"Testing Knowledge",
-			"Thoroughness, carefulness, curiosity, attention to details, being methodical",
-			"Good communication skills, active listening, being a team player",
-			"Analytical thinking, critical thinking, creativity",
-			"Technical knowledge",
-			"Domain knowledge"
-		],
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 18,
-		"Question": "What is the whole-team approach?",
-		"Answer": "In the whole-team approach any team member with the necessary knowledge and skills can perform any task, and everyone is responsible for quality. The team members share the same workspace, testers work closely with other team members to ensure that desired quality levels are achieved and various skill sets within the team are leveraged for the benefit of the project.",
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 19,
-		"Question": "What levels are there when it comes to independence of testing?",
-		"Answer": "Work products can be tested by different members:",
-		"Answers": [
-			"By their author (no independence)",
-			"By the author's peers from the same team (some independence)",
-			"By testers from outside the author's team but within the organization (high independence)",
-			"By testers from outside the organization (very high independence)"
-		],
-		"ChapterKey": "FOT"
-	},
-	{
-		"Id": 20,
-		"Question": "What is the Software Development Lifecycle?",
-		"Answer": "It is an abstract model, a high-level representation of the software development process. The model defines how different development phases and types of activities performed within the process relate to each other, both logically and chronologically.",
-		"ChapterKey": "TTSDLC"
-	}
+  {
+    "Id": 2,
+    "Question": "What is software testing?",
+    "Answer": "Software testing is the process of assessing software quality in order to minimize risk of software failure during operation. It can be described as a set of activities to discover defects and evaluate the quality of software artifacts.",
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 3,
+    "Question": "What is the difference between dynamic and static testing?",
+    "Answer": "Dynamic testing involves the execution of software, while static testing does not.",
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 4,
+    "Question": "What kind of mindset do testers need to have?",
+    "Answer": "While testers use certain tools to aid them during testing, it is important to remember that testing is largely an intellectual activity, requiring the testers to have specialized knowledge, use analytical skills and apply critical thinking and systems thinking.",
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 5,
+    "Question": "What are some typical test objectives?",
+    "Answers": [
+      "Evaluating work products such as requirements, user stories, designs, and code",
+      "Triggering failures and finding defects",
+      "Ensuring required coverage of a test object",
+      "Reducing the level of risk of inadequate software quality",
+      "Verifying whether specified requirements have been fulfilled",
+      "Verifying that a test object complies with contractual, legal, and regulatory requirements",
+      "Providing information to stakeholders to allow them to make informed decisions",
+      "Building confidence in the quality of the test object",
+      "Validating whether the test object is complete and works as expected by the stakeholders"
+    ],
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 6,
+    "Question": "What is the debugging process and what steps does it typically involve?",
+    "Answer": "When dynamic testing triggers a failure, debugging is concerned with finding causes of this failure (defects), analyzing these causes, and eliminating them. The typical process involves:",
+    "Answers": [
+      "Reproduction of a failure",
+      "Diagnosis (finding the root cause)",
+      "Fixing the cause"
+    ],
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 7,
+    "Question": "Why is Testing necessary?",
+    "Answer": "Testing, as a form of quality control, helps in achieving the agreed upon goals within the set scope, time, quality, and budget constraints.",
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 8,
+    "Question": "What is the difference between QC and QA?",
+    "Answer": "QC is a product-oriented, corrective approach that focuses on those activities supporting the achievement of appropriate levels of quality, whilst QA is a process-oriented, preventive approach that focuses on the implementation and improvement of processes. Testing is a major form of quality control and is not the same as quality assessment.",
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 9,
+    "Question": "What are some of the reasons for human error in software development?",
+    "Answer": "Humans make errors for various reasons, such as time pressure, complexity of work products, processes, infrastructure or interactions, or simply because they are tired or lack adequate training.",
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 10,
+    "Question": "What would be defined as a root cause?",
+    "Answer": "A root cause is a fundamental reason for the occurrence of a problem.  \n It is believed that further failures or defects can be prevented or their frequency reduced by addressing the root cause, such as by removing it.",
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 11,
+    "Question": "What testing principles are there?",
+    "Answers": [
+      "Testing shows the presence, not the absence of defects",
+      "Exhaustive testing is impossible",
+      "Early testing saves time and money",
+      "Defects cluster together",
+      "Tests wear out",
+      "Testing is context dependent",
+      "Absence-of-defects fallacy"
+    ],
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 12,
+    "Question": "Which testing activities mainly make up the testing process?",
+    "Answers": [
+      "Test Planning",
+      "Test monitoring and control",
+      "Test analysis",
+      "Test design",
+      "Test implementation",
+      "Test execution",
+      "Test completion"
+    ],
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 13,
+    "Question": "What contextual factors exist which influence the overall testing process?",
+    "Answers": [
+      "Stakeholders (needs, expectations, requirements, willingness to cooperate, etc.)",
+      "Team members (skills, knowledge, level of experience, availability, training needs, etc.)",
+      "Business domain (criticality of the test object, identified risks, market needs, specific legal regulations, etc.)",
+      "Technical factors (type of software, product architecture, technology used, etc.)",
+      "Project constraints (scope, time, budget, resources, etc.)",
+      "Organizational factors (organizational structure, existing policies, practices used, etc.)",
+      "Software development lifecycle (engineering practices, development methods, etc.)",
+      "Tools (availability, usability, compliance, etc.)"
+    ],
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 14,
+    "Question": "What is testware and which items would be examples for the same?",
+    "Answer": "Testware are the work products created and delivered as output from testing activities. Each organization has different ways of producing, naming and maintaining such products. Some examples of testware would be:",
+    "Answers": [
+      "Test plans, Test schedules, Entry & Exit criteria",
+      "Progress reports, Acceptance criteria",
+      "Test cases, Test scripts, Test suites, Test logs, Defect Reports"
+    ],
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 15,
+    "Question": "Why do we need traceability between the test basis and testware?",
+    "Answer": "Accurate traceability enables proper coverage evaluation and can also be used to identify any residual risks in a test object. Furthermore, good traceability makes it possible to determine the impact of changes, makes completion and test reports easier to understand and assists in communicating technical aspects of testing to stakeholders.",
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 16,
+    "Question": "Which two principal roles exist in testing and what are they mainly concerned with?",
+    "Answer": "There are two main roles in testing, a test management and a testing role. The first one is mainly focused on the testing process, testing team and the overall leadership of the testing activities. The latter takes responsibility for the engineering (technical) aspect of testing.",
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 17,
+    "Question": "What are some skills that are essential for testers?",
+    "Answers": [
+      "Testing Knowledge",
+      "Thoroughness, carefulness, curiosity, attention to details, being methodical",
+      "Good communication skills, active listening, being a team player",
+      "Analytical thinking, critical thinking, creativity",
+      "Technical knowledge",
+      "Domain knowledge"
+    ],
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 18,
+    "Question": "What is the whole-team approach?",
+    "Answer": "In the whole-team approach any team member with the necessary knowledge and skills can perform any task, and everyone is responsible for quality. The team members share the same workspace, testers work closely with other team members to ensure that desired quality levels are achieved and various skill sets within the team are leveraged for the benefit of the project.",
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 19,
+    "Question": "What levels are there when it comes to independence of testing?",
+    "Answer": "Work products can be tested by different members:",
+    "Answers": [
+      "By their author (no independence)",
+      "By the author's peers from the same team (some independence)",
+      "By testers from outside the author's team but within the organization (high independence)",
+      "By testers from outside the organization (very high independence)"
+    ],
+    "ChapterKey": "FOT"
+  },
+  {
+    "Id": 20,
+    "Question": "What is the Software Development Lifecycle?",
+    "Answer": "It is an abstract model, a high-level representation of the software development process. The model defines how different development phases and types of activities performed within the process relate to each other, both logically and chronologically.",
+    "ChapterKey": "TTSDLC"
+  }
 ]

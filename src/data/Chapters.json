@@ -1,8 +1,11 @@
 [
-	{ "Key": "FOT", "Chapter": "Fundamentals of Testing" },
-	{ "Key": "TTSDLC", "Chapter": "Testing Throughout the Software Development Lifecycle" },
-	{ "Key": "ST", "Chapter": "Static Testing" },
-	{ "Key": "TAD", "Chapter": "Test Analysis and Design" },
-	{ "Key": "MTA", "Chapter": "Managing the Test Activities" },
-	{ "Key": "TT", "Chapter": "Test Tools" }
+  { "Key": "FOT", "Chapter": "Fundamentals of Testing" },
+  {
+    "Key": "TTSDLC",
+    "Chapter": "Testing Throughout the Software Development Lifecycle"
+  },
+  { "Key": "ST", "Chapter": "Static Testing" },
+  { "Key": "TAD", "Chapter": "Test Analysis and Design" },
+  { "Key": "MTA", "Chapter": "Managing the Test Activities" },
+  { "Key": "TT", "Chapter": "Test Tools" }
 ]
